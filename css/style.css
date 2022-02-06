@@ -20,8 +20,7 @@
 .body {
     font-family: var(--primary-font-family);
     background: var(--main-background-color);
-    }
-    
+    }  
 .logo {
     font-family: var(--secondary-font-family);
     font-weight: 700;
@@ -56,7 +55,7 @@
     color: var(--accent-color);
     }
  .active-page {
-        color: var(--accent-color);
+    color: var(--accent-color);
     }
 .contact-info {
     font-weight: 500;
