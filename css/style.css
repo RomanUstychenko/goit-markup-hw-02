@@ -15,7 +15,9 @@
 /* ======START COMPONENT====== */
 .body {
     font-family: var(--primary-font-family);
+    background: #F5F4FA;
     }
+    
 .logo {
     font-family: var(--secondary-font-family);
     font-weight: 700;
@@ -35,9 +37,13 @@
     }
 /* ======END COMPONENT====== */
 /* ======START HEADER====== */
+.header {
+    background-color: #FFFFFF;
+}
 .logo-studio-header {
     color: #000;
     }
+
 .nav-list-link {
     font-weight: 500;
     font-size: 14px;
@@ -96,10 +102,6 @@
     }
 /* ======END HERO====== */
 /* ======START ABOUT====== */
-.about
-.services {
-    background: #F5F4FA;
-}
 .about-title {
     font-weight: 700;
     font-size: 14px;
@@ -164,3 +166,36 @@
     color: rgba(255, 255, 255, 0.6);
     }
 /* ======END FOOTER====== */
+
+/* ======START PORTFOLIO====== */
+.portfolio-btn {
+font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1,63;
+text-align: center;
+letter-spacing: 0.03em;
+background-color: #F5F4FA;
+color: #212121;
+cursor: pointer;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+color: #FFFFFF;
+background-color: #2196F3;
+}
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+.portfolio-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/* ======END PORTFOLIO====== */
